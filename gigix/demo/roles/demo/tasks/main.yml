@@ -1,0 +1,4 @@
+---
+# tasks file for demo
+- name: demo
+  ansible.builtin.command: echo "hello from demo"
