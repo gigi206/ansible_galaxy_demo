@@ -1,5 +1,5 @@
 ---
-- name: gigix.demo.demo
+- name: demo
   hosts: "{{ target | default('all') }}"
   roles:
-    - demo
+    - gigix.demo.demo
